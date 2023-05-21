@@ -106,7 +106,7 @@ ORDER BY 2 DESC
 
 --Q17
 SELECT O.OrderID, COUNT(OD.ProductID) 'Products Quantity'
-FROM Orders as O LEFT JOIN [Order Details] as OD
+FROM Orders as O INNER JOIN [Order Details] as OD
 ON O.OrderID = OD.OrderID
 GROUP BY O.OrderID
 ORDER BY 1
