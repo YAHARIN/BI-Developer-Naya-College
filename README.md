@@ -2,4 +2,5 @@
 BI Developer Naya College Materials
 
 MODULE 1 : SQL
-/nMODULE 2 : T-SQL
+
+MODULE 2 : T-SQL
